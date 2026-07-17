@@ -103,17 +103,54 @@ This file contains your IPTV credentials in the stream URLs. This is normal — 
 
 ## Step 6: Install Arctic Horizon 2 Skin
 
-This gives Kodi a clean, modern look instead of the default interface.
+This gives Kodi a clean, modern look instead of the default interface. Arctic Horizon 2 is not in the default Kodi repository — you need to add the developer's repository first.
 
-1. Go to **Kodi Settings** (gear icon)
-2. Select **Interface** → **Skin
-3. Click **Skin** (it will show "Estuary" by default)
-4. Click **Get More...**
-5. Scroll through the list and find **Arctic Horizon 2**
-   - If you don't see it, you may need to update your Kodi add-on repository first:
-     Go to Add-ons → box icon → Install from repository → Kodi Add-on Repository → Look and feel → Skins → Arctic Horizon 2
-6. Click **Arctic Horizon 2** and select **Install**
-7. Kodi will switch to the new skin. Answer any setup prompts.
+### Step 6a: Add the jurialmunkey repository
+
+1. Go to **Kodi Settings** (gear icon at the top)
+2. Select **File manager**
+3. Select **Add source**
+4. Click the box that says `<None>`
+5. Type exactly:
+   ```
+   https://jurialmunkey.github.io/repository.jurialmunkey/
+   ```
+6. Give it a name at the bottom, e.g., type `jurialmunkey`
+7. Click **OK**
+
+### Step 6b: Install the repository
+
+1. Go back to the Kodi home screen
+2. Go to **Add-ons** (the open box icon)
+3. Click the **box icon** at the top left (open box with up arrow)
+4. Select **Install from zip file**
+5. A warning may appear about unknown sources — click **Yes** to allow it (you can disable this later)
+6. Select **jurialmunkey** (the source you just added)
+7. Select **repository.jurialmunkey-3.4.zip**
+8. Wait for the "Add-on installed" notification at the top right
+
+### Step 6c: Install Arctic Horizon 2
+
+1. Go to **Add-ons** → click the **box icon** at the top left
+2. Select **Install from repository**
+3. Select **Jurialmunkey's Kodi Repository** (it should now be in the list)
+4. Scroll down and select **Look and feel**
+5. Select **Skins**
+6. Find **Arctic Horizon 2** and click it
+7. Click **Install**
+8. Wait — it will download the skin and all its dependencies (this can take a minute or two)
+9. Kodi will ask if you want to switch to the new skin — click **Yes**
+10. Answer any setup prompts that appear
+
+### Alternative skins (if Arctic Horizon 2 doesn't work)
+
+From the same jurialmunkey repository:
+- **Arctic Fuse 3** — similar style, more customizable home screen widgets
+- **Arctic Fuse 2** — slightly older but stable
+- **Aura** — another clean minimal option
+
+You can also try skins from the default Kodi repository:
+- Go to **Settings** → **Interface** → **Skin** → **Get More...** → try **Estuary Mod v2** or **Aeon Nox Silvo**
 
 ### Arctic Horizon 2 Settings (recommended for IPTV)
 Once installed, customize it:
@@ -135,7 +172,7 @@ Once installed, customize it:
 2. You'll see:
    - **Channels** — all 75 channels
    - **Groups** — UK, Canada, USA, Australia
-   - **Guide** — the EPG program guide (7 days of data)
+   - **Guide** — the EPG program guide (5 days of data)
 
 ### Watching a Channel
 1. Go to **TV** → **Channels**
