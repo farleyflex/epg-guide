@@ -16,7 +16,7 @@
   <channel site="mytelly.co.uk" site_id="747/sky-sports-racing" lang="en" xmltv_id="skysportsracing.uk">Sky Sports Racing</channel>
   <channel site="mytelly.co.uk" site_id="2033/sky-sports-mix" lang="en" xmltv_id="skysportsmix.uk">Sky Sports Mix</channel>
   <channel site="mytelly.co.uk" site_id="231/sky-sports-news" lang="en" xmltv_id="skysportsnews.uk">Sky Sports News</channel>
-  <channel site="mytelly.co.uk" site_id="1562534/sky-sports-action" lang="en" xmltv_id="skysportsaction.uk">Sky Sports Action</channel>
+  <channel site="mytelly.co.uk" site_id="435/sky-sports-nfl" lang="en" xmltv_id="skysportsaction.uk">Sky Sports Action</channel>
   <channel site="mytelly.co.uk" site_id="2450/sky-sports-tennis" lang="en" xmltv_id="skysportstennis.uk">Sky Sports Tennis</channel>
   <channel site="mytelly.co.uk" site_id="2088/sky-sports" lang="en" xmltv_id="SkySportsArena.uk">Sky Sports+</channel>
 
@@ -44,19 +44,19 @@
   <channel site="mytelly.co.uk" site_id="53/channel-4" lang="en" xmltv_id="Channel4.uk">Channel 4</channel>
   <channel site="mytelly.co.uk" site_id="54/channel-5" lang="en" xmltv_id="Channel5.uk">Channel 5</channel>
   <channel site="mytelly.co.uk" site_id="74/udave" lang="en" xmltv_id="Dave.uk">U&amp;Dave</channel>
-  <channel site="mytelly.co.uk" site_id="155/sky-news" lang="en" xmltv_id="SkyNews.uk">Sky News</channel>
+  <channel site="mytelly.co.uk" site_id="114/sky-news" lang="en" xmltv_id="SkyNews.uk">Sky News</channel>
 
   <!-- ========================================== -->
   <!-- GROUP 2: Canadian Channels                 -->
   <!-- Source: tvpassport.com                      -->
   <!-- ========================================== -->
 
-  <channel site="tvpassport.com" site_id="cbc-toronto-cblt/13688" lang="en" xmltv_id="CBC.ca">CBC Toronto</channel>
+  <channel site="tvpassport.com" site_id="cbc--network/1228" lang="en" xmltv_id="CBC.ca">CBC Network</channel>
   <channel site="tvpassport.com" site_id="cbc-news-network/13730" lang="en" xmltv_id="CBCNews.ca">CBC News Network</channel>
   <channel site="tvpassport.com" site_id="ctv-toronto-cfto/13726" lang="en" xmltv_id="CTVHT.ca">CTV Toronto</channel>
   <channel site="tvpassport.com" site_id="ctv-news-channel/13731" lang="en" xmltv_id="CTVNC.ca">CTV News Channel</channel>
   <channel site="tvpassport.com" site_id="ctv-drama-channel/6798" lang="en" xmltv_id="CTVDrama.ca">CTV Drama</channel>
-  <channel site="tvpassport.com" site_id="ctv-comedy-channel/13830" lang="en" xmltv_id="CTVComedy.ca">CTV Comedy</channel>
+  <channel site="tvpassport.com" site_id="ctv-comedy--east/159" lang="en" xmltv_id="CTVComedy.ca">CTV Comedy</channel>
   <channel site="tvpassport.com" site_id="sportsnet-360/11287" lang="en" xmltv_id="Sportsnet360.ca">Sportsnet 360</channel>
   <channel site="tvpassport.com" site_id="sportsnet-one/13560" lang="en" xmltv_id="SportsnetOne.ca">Sportsnet One</channel>
   <channel site="tvpassport.com" site_id="sportsnet-ontario/11289" lang="en" xmltv_id="SportsnetOntario.ca">Sportsnet Ontario</channel>
@@ -65,10 +65,10 @@
   <channel site="tvpassport.com" site_id="sportsnet-west/11290" lang="en" xmltv_id="SportsnetWest.ca">Sportsnet West</channel>
   <channel site="tvpassport.com" site_id="sportsnet-world/14163" lang="en" xmltv_id="SportsnetWorld.ca">Sportsnet World</channel>
   <channel site="tvpassport.com" site_id="tsn1/9842" lang="en" xmltv_id="TSN1.ca">TSN 1</channel>
-  <channel site="tvpassport.com" site_id="tsn2/9843" lang="en" xmltv_id="TSN2.ca">TSN 2</channel>
+  <channel site="tvpassport.com" site_id="tsn2/4294" lang="en" xmltv_id="TSN2.ca">TSN 2</channel>
   <channel site="tvpassport.com" site_id="tsn3/9844" lang="en" xmltv_id="TSN3.ca">TSN 3</channel>
   <channel site="tvpassport.com" site_id="tsn4/9845" lang="en" xmltv_id="TSN4.ca">TSN 4</channel>
-  <channel site="tvpassport.com" site_id="tsn5/9846" lang="en" xmltv_id="TSN5.ca">TSN 5</channel>
+  <channel site="tvpassport.com" site_id="tsn5/278" lang="en" xmltv_id="TSN5.ca">TSN 5</channel>
   <channel site="tvpassport.com" site_id="global-television-network-ciii/13421" lang="en" xmltv_id="CIII.ca">Global Toronto</channel>
 
   <!-- ========================================== -->
