@@ -16,9 +16,9 @@
   <channel site="mytelly.co.uk" site_id="747/sky-sports-racing" lang="en" xmltv_id="skysportsracing.uk">Sky Sports Racing</channel>
   <channel site="mytelly.co.uk" site_id="2033/sky-sports-mix" lang="en" xmltv_id="skysportsmix.uk">Sky Sports Mix</channel>
   <channel site="mytelly.co.uk" site_id="231/sky-sports-news" lang="en" xmltv_id="skysportsnews.uk">Sky Sports News</channel>
-  <channel site="mytelly.co.uk" site_id="2088/sky-sports" lang="en" xmltv_id="SkySportsArena.uk">Sky Sports+</channel>
   <channel site="mytelly.co.uk" site_id="1562534/sky-sports-action" lang="en" xmltv_id="skysportsaction.uk">Sky Sports Action</channel>
   <channel site="mytelly.co.uk" site_id="2450/sky-sports-tennis" lang="en" xmltv_id="skysportstennis.uk">Sky Sports Tennis</channel>
+  <channel site="mytelly.co.uk" site_id="2088/sky-sports" lang="en" xmltv_id="SkySportsArena.uk">Sky Sports+</channel>
 
   <!-- TNT Sports (Premier League, EFL, Champions League) -->
   <channel site="mytelly.co.uk" site_id="1804/tnt-sports-1" lang="en" xmltv_id="tntsports1.uk">TNT Sports 1</channel>
@@ -29,13 +29,12 @@
   <channel site="mytelly.co.uk" site_id="1956/tnt-sports-6" lang="en" xmltv_id="TNTSport2.uk">TNT Sports 6</channel>
   <channel site="mytelly.co.uk" site_id="1957/tnt-sports-7" lang="en" xmltv_id="TNTSport3.uk">TNT Sports 7</channel>
   <channel site="mytelly.co.uk" site_id="1958/tnt-sports-8" lang="en" xmltv_id="TNTSport4.uk">TNT Sports 8</channel>
-  <channel site="mytelly.co.uk" site_id="1954/tnt-sports-ultimate" lang="en" xmltv_id="SkySportsPremiereLeague.uk">TNT Sports Ultimate</channel>
 
   <!-- Premier Sports (EFL, Scottish football, La Liga) -->
   <channel site="mytelly.co.uk" site_id="1638/premier-sports-1-hd" lang="en" xmltv_id="premiersports1.uk">Premier Sports 1</channel>
   <channel site="mytelly.co.uk" site_id="2270/premier-sports-2-hd" lang="en" xmltv_id="premiersports2.uk">Premier Sports 2</channel>
 
-  <!-- Eurosport (provider has no EPG ID for these - using Sky Sports Arena for Sky Sports+) -->
+  <!-- Eurosport (provider has no EPG ID for these - removed) -->
 
   <!-- UK Major Terrestrial Channels -->
   <channel site="mytelly.co.uk" site_id="4/bbc-one" lang="en" xmltv_id="bbc1.uk">BBC One</channel>
@@ -45,7 +44,6 @@
   <channel site="mytelly.co.uk" site_id="53/channel-4" lang="en" xmltv_id="Channel4.uk">Channel 4</channel>
   <channel site="mytelly.co.uk" site_id="54/channel-5" lang="en" xmltv_id="Channel5.uk">Channel 5</channel>
   <channel site="mytelly.co.uk" site_id="74/udave" lang="en" xmltv_id="Dave.uk">U&amp;Dave</channel>
-  <channel site="mytelly.co.uk" site_id="89/hgtv" lang="en" xmltv_id="HGTV.uk">HGTV</channel>
   <channel site="mytelly.co.uk" site_id="155/sky-news" lang="en" xmltv_id="SkyNews.uk">Sky News</channel>
 
   <!-- ========================================== -->
@@ -53,60 +51,58 @@
   <!-- Source: tvpassport.com                      -->
   <!-- ========================================== -->
 
-  <channel site="tvpassport.com" site_id="cbc--network-hd/14173" lang="en" xmltv_id="CBC.ca">CBC HD</channel>
-  <channel site="tvpassport.com" site_id="cbc--network/1228" lang="en" xmltv_id="CBC.ca">CBC</channel>
+  <channel site="tvpassport.com" site_id="cbc-toronto-cblt/13688" lang="en" xmltv_id="CBC.ca">CBC Toronto</channel>
   <channel site="tvpassport.com" site_id="cbc-news-network/13730" lang="en" xmltv_id="CBCNews.ca">CBC News Network</channel>
-  <channel site="tvpassport.com" site_id="capital-networks-ctv-toronto-cfto-on/13726" lang="en" xmltv_id="CTVHT.ca">CTV Toronto</channel>
-  <channel site="tvpassport.com" site_id="capital-networks-ctv-news-channel/13731" lang="en" xmltv_id="CTVNC.ca">CTV News Channel</channel>
-  <channel site="tvpassport.com" site_id="capital-networks-ctv-drama/6798" lang="en" xmltv_id="CTVDrama.ca">CTV Drama</channel>
-  <channel site="tvpassport.com" site_id="capital-networks-ctv-comedy/13830" lang="en" xmltv_id="CTVComedy.ca">CTV Comedy</channel>
-  <channel site="tvpassport.com" site_id="capital-networks-sportsnet-360/11287" lang="en" xmltv_id="Sportsnet360.ca">Sportsnet 360</channel>
-  <channel site="tvpassport.com" site_id="capital-networks-sportsnet-one/13560" lang="en" xmltv_id="SportsnetOne.ca">Sportsnet One</channel>
-  <channel site="tvpassport.com" site_id="capital-networks-sportsnet-ontario/11289" lang="en" xmltv_id="SportsnetOntario.ca">Sportsnet Ontario</channel>
-  <channel site="tvpassport.com" site_id="capital-networks-sportsnet-east/11286" lang="en" xmltv_id="SportsnetEast.ca">Sportsnet East</channel>
-  <channel site="tvpassport.com" site_id="capital-networks-sportsnet-pacific/11288" lang="en" xmltv_id="SportsnetPacific.ca">Sportsnet Pacific</channel>
-  <channel site="tvpassport.com" site_id="capital-networks-sportsnet-west/11290" lang="en" xmltv_id="SportsnetWest.ca">Sportsnet West</channel>
-  <channel site="tvpassport.com" site_id="capital-networks-sportsnet-world/14163" lang="en" xmltv_id="SportsnetWorld.ca">Sportsnet World</channel>
-  <channel site="tvpassport.com" site_id="capital-networks-tsn1/9842" lang="en" xmltv_id="TSN1.ca">TSN 1</channel>
-  <channel site="tvpassport.com" site_id="capital-networks-tsn2/9843" lang="en" xmltv_id="TSN2.ca">TSN 2</channel>
-  <channel site="tvpassport.com" site_id="capital-networks-tsn3/9844" lang="en" xmltv_id="TSN3.ca">TSN 3</channel>
-  <channel site="tvpassport.com" site_id="capital-networks-tsn4/9845" lang="en" xmltv_id="TSN4.ca">TSN 4</channel>
-  <channel site="tvpassport.com" site_id="capital-networks-tsn5/9846" lang="en" xmltv_id="TSN5.ca">TSN 5</channel>
+  <channel site="tvpassport.com" site_id="ctv-toronto-cfto/13726" lang="en" xmltv_id="CTVHT.ca">CTV Toronto</channel>
+  <channel site="tvpassport.com" site_id="ctv-news-channel/13731" lang="en" xmltv_id="CTVNC.ca">CTV News Channel</channel>
+  <channel site="tvpassport.com" site_id="ctv-drama-channel/6798" lang="en" xmltv_id="CTVDrama.ca">CTV Drama</channel>
+  <channel site="tvpassport.com" site_id="ctv-comedy-channel/13830" lang="en" xmltv_id="CTVComedy.ca">CTV Comedy</channel>
+  <channel site="tvpassport.com" site_id="sportsnet-360/11287" lang="en" xmltv_id="Sportsnet360.ca">Sportsnet 360</channel>
+  <channel site="tvpassport.com" site_id="sportsnet-one/13560" lang="en" xmltv_id="SportsnetOne.ca">Sportsnet One</channel>
+  <channel site="tvpassport.com" site_id="sportsnet-ontario/11289" lang="en" xmltv_id="SportsnetOntario.ca">Sportsnet Ontario</channel>
+  <channel site="tvpassport.com" site_id="sportsnet-east/11286" lang="en" xmltv_id="SportsnetEast.ca">Sportsnet East</channel>
+  <channel site="tvpassport.com" site_id="sportsnet-pacific/11288" lang="en" xmltv_id="SportsnetPacific.ca">Sportsnet Pacific</channel>
+  <channel site="tvpassport.com" site_id="sportsnet-west/11290" lang="en" xmltv_id="SportsnetWest.ca">Sportsnet West</channel>
+  <channel site="tvpassport.com" site_id="sportsnet-world/14163" lang="en" xmltv_id="SportsnetWorld.ca">Sportsnet World</channel>
+  <channel site="tvpassport.com" site_id="tsn1/9842" lang="en" xmltv_id="TSN1.ca">TSN 1</channel>
+  <channel site="tvpassport.com" site_id="tsn2/9843" lang="en" xmltv_id="TSN2.ca">TSN 2</channel>
+  <channel site="tvpassport.com" site_id="tsn3/9844" lang="en" xmltv_id="TSN3.ca">TSN 3</channel>
+  <channel site="tvpassport.com" site_id="tsn4/9845" lang="en" xmltv_id="TSN4.ca">TSN 4</channel>
+  <channel site="tvpassport.com" site_id="tsn5/9846" lang="en" xmltv_id="TSN5.ca">TSN 5</channel>
   <channel site="tvpassport.com" site_id="global-television-network-ciii/13421" lang="en" xmltv_id="CIII.ca">Global Toronto</channel>
 
   <!-- ========================================== -->
   <!-- GROUP 3: USA Channels                      -->
-  <!-- Source: tvpassport.com (better EPG match)  -->
+  <!-- Source: tvpassport.com                      -->
   <!-- ========================================== -->
 
-  <channel site="tvpassport.com" site_id="espn-us/11310" lang="en" xmltv_id="ESPN.us">ESPN</channel>
-  <channel site="tvpassport.com" site_id="espn-news/11312" lang="en" xmltv_id="ESPNNews.us">ESPN News</channel>
-  <channel site="tvpassport.com" site_id="fox-sports-1/21972" lang="en" xmltv_id="foxsports1.us">FOX Sports 1</channel>
-  <channel site="tvpassport.com" site_id="fox-sports-2/21973" lang="en" xmltv_id="foxsports2.us">FOX Sports 2</channel>
-  <channel site="tvpassport.com" site_id="nfl-network/24908" lang="en" xmltv_id="NFLNetwork.us">NFL Network</channel>
-  <channel site="tvpassport.com" site_id="golf-channel/24768" lang="en" xmltv_id="GolfChannel.us">Golf Channel</channel>
-  <channel site="tvpassport.com" site_id="mlb-network/24906" lang="en" xmltv_id="MLBNetwork.us">MLB Network</channel>
-  <channel site="tvpassport.com" site_id="cbs-sports-network/24907" lang="en" xmltv_id="CBSSportsNetwork.us">CBS Sports Network</channel>
-  <channel site="tvpassport.com" site_id="big-ten-network/24910" lang="en" xmltv_id="BigTenNetwork.us">Big Ten Network</channel>
-  <channel site="tvpassport.com" site_id="tnt-us/26320" lang="en" xmltv_id="TNT.us">TNT</channel>
-  <channel site="tvpassport.com" site_id="amc-us/26299" lang="en" xmltv_id="AMC.us">AMC</channel>
-  <channel site="tvpassport.com" site_id="hbo/26200" lang="en" xmltv_id="HBO.us">HBO</channel>
-  <channel site="tvpassport.com" site_id="hbo-2/26201" lang="en" xmltv_id="HBO2.us">HBO 2</channel>
-  <channel site="tvpassport.com" site_id="showtime/26210" lang="en" xmltv_id="Showtime.us">Showtime</channel>
-  <channel site="tvpassport.com" site_id="starz/26230" lang="en" xmltv_id="Starz.us">Starz</channel>
-  <channel site="tvpassport.com" site_id="cnn-us/26160" lang="en" xmltv_id="cnn.us">CNN</channel>
-  <channel site="tvpassport.com" site_id="msnbc/26168" lang="en" xmltv_id="msnbc.us">MSNBC</channel>
-  <channel site="tvpassport.com" site_id="cnbc/26164" lang="en" xmltv_id="CNBC.us">CNBC</channel>
-  <channel site="tvpassport.com" site_id="usa-network/26310" lang="en" xmltv_id="USANetwork.us">USA Network</channel>
-  <channel site="tvpassport.com" site_id="discovery-channel-us/26410" lang="en" xmltv_id="DiscoveryChannel.us">Discovery Channel</channel>
-  <channel site="tvpassport.com" site_id="history-channel-us/26420" lang="en" xmltv_id="HistoryChannel.us">History Channel</channel>
+  <channel site="tvpassport.com" site_id="espn/594" lang="en" xmltv_id="ESPN.us">ESPN</channel>
+  <channel site="tvpassport.com" site_id="espn-news/1527" lang="en" xmltv_id="ESPNNews.us">ESPN News</channel>
+  <channel site="tvpassport.com" site_id="fox-sports-1/668" lang="en" xmltv_id="foxsports1.us">FOX Sports 1</channel>
+  <channel site="tvpassport.com" site_id="fox-sports-2/2114" lang="en" xmltv_id="foxsports2.us">FOX Sports 2</channel>
+  <channel site="tvpassport.com" site_id="nfl-network/3349" lang="en" xmltv_id="NFLNetwork.us">NFL Network</channel>
+  <channel site="tvpassport.com" site_id="golf-channel-usa/193" lang="en" xmltv_id="GolfChannel.us">Golf Channel</channel>
+  <channel site="tvpassport.com" site_id="mlb-network-hd/6218" lang="en" xmltv_id="MLBNetwork.us">MLB Network</channel>
+  <channel site="tvpassport.com" site_id="cbs-sports-network-usa/3115" lang="en" xmltv_id="CBSSportsNetwork.us">CBS Sports Network</channel>
+  <channel site="tvpassport.com" site_id="big-ten-network/4499" lang="en" xmltv_id="BigTenNetwork.us">Big Ten Network</channel>
+  <channel site="tvpassport.com" site_id="tnt--eastern-feed/347" lang="en" xmltv_id="TNT.us">TNT</channel>
+  <channel site="tvpassport.com" site_id="amc--eastern-feed/177" lang="en" xmltv_id="AMC.us">AMC</channel>
+  <channel site="tvpassport.com" site_id="hbo1/84" lang="en" xmltv_id="HBO.us">HBO</channel>
+  <channel site="tvpassport.com" site_id="hbo-2--eastern-feed/626" lang="en" xmltv_id="HBO2.us">HBO 2</channel>
+  <channel site="tvpassport.com" site_id="paramount-with-showtime--eastern/3034" lang="en" xmltv_id="Showtime.us">Showtime</channel>
+  <channel site="tvpassport.com" site_id="starz1--east/55" lang="en" xmltv_id="Starz.us">Starz</channel>
+  <channel site="tvpassport.com" site_id="cnn/70" lang="en" xmltv_id="cnn.us">CNN</channel>
+  <channel site="tvpassport.com" site_id="msnbc-usa/655" lang="en" xmltv_id="msnbc.us">MSNBC</channel>
+  <channel site="tvpassport.com" site_id="cnbc-usa-hd/6119" lang="en" xmltv_id="CNBC.us">CNBC</channel>
+  <channel site="tvpassport.com" site_id="usa-network--east-feed/640" lang="en" xmltv_id="USANetwork.us">USA Network</channel>
+  <channel site="tvpassport.com" site_id="discovery-channel-us--eastern-feed/649" lang="en" xmltv_id="DiscoveryChannel.us">Discovery Channel</channel>
+  <channel site="tvpassport.com" site_id="history-channel-us--eastern-feed/621" lang="en" xmltv_id="HistoryChannel.us">History Channel</channel>
 
   <!-- ========================================== -->
   <!-- GROUP 4: Australian Channels               -->
   <!-- Source: foxtel.com.au                       -->
   <!-- ========================================== -->
 
-  <!-- Australian channels with matching provider EPG IDs -->
   <channel site="foxtel.com.au" site_id="FOX-SPORTS-503/FS3" lang="en" xmltv_id="FoxSports3.au">FOX SPORTS 503</channel>
   <channel site="foxtel.com.au" site_id="FOX-SPORTS-505/FSP" lang="en" xmltv_id="FoxSports5.au">FOX SPORTS 505</channel>
   <channel site="foxtel.com.au" site_id="FOX-SPORTS-506/SPS" lang="en" xmltv_id="FoxSports6.au">FOX SPORTS 506</channel>
