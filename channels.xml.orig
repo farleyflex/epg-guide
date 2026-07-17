@@ -112,4 +112,5 @@
   <channel site="foxtel.com.au" site_id="FOX-SPORTS-506/SPS" lang="en" xmltv_id="FoxSports6.au">FOX SPORTS 506</channel>
   <channel site="foxtel.com.au" site_id="Fox-Sports-News/FSN" lang="en" xmltv_id="FoxSportsNews.au">Fox Sports News</channel>
   <channel site="foxtel.com.au" site_id="Fox-Sports-News/FSN" lang="en" xmltv_id="SKYNewsLive.au">Sky News Australia</channel>
+  <channel site="foxtel.com.au" site_id="Animal-Planet/ANI" lang="en" xmltv_id="beINSports1.au">BeIN Sports 1 (via Animal Planet slot)</channel>
 </channels>
