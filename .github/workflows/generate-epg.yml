@@ -1,0 +1,54 @@
+name: Generate EPG
+
+on:
+  schedule:
+    # Run at 6:00 AM UTC every day (2 AM EST)
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  generate-epg:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout this repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Clone iptv-org/epg grabber
+        run: |
+          git clone --depth 1 -b master https://github.com/iptv-org/epg.git /tmp/epg
+          cd /tmp/epg
+          npm install --production
+
+      - name: Generate EPG from channels.xml
+        run: |
+          cd /tmp/epg
+          npm run grab -- --channels=$GITHUB_WORKSPACE/channels.xml --days=5 --maxConnections=5 --output=$GITHUB_WORKSPACE/epg.xml --timeout=60000
+
+      - name: Generate gzip version
+        run: |
+          gzip -kf epg.xml
+          ls -lh epg.xml epg.xml.gz
+
+      - name: Commit and push EPG file
+        run: |
+          git config user.name "EPG Bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add epg.xml epg.xml.gz
+          git commit -m "Auto-update EPG ($(date -u '+%Y-%m-%d %H:%M UTC'))" || echo "No changes to commit"
+          git push
+
+      - name: Show summary
+        run: |
+          echo "=== EPG Generation Complete ==="
+          echo "File size: $(du -h epg.xml | cut -f1)"
+          echo "Channels: $(grep -c '<channel' epg.xml)"
+          echo "Programs: $(grep -c '<programme' epg.xml)"
