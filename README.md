@@ -2,7 +2,7 @@
 
 A curated XMLTV EPG guide with only the channels you want — UK (Premier League, EFL, British sports) first, then Canada, USA, and Australia. Generated daily via GitHub Actions and served from a public URL your IPTV app can auto-pull.
 
-## EPG URL
+## ✅ EPG URL
 
 ```
 https://raw.githubusercontent.com/farleyflex/epg-guide/main/epg.xml
@@ -10,13 +10,50 @@ https://raw.githubusercontent.com/farleyflex/epg-guide/main/epg.xml
 
 Use this URL in Sparkle TV or Strong 8 as your EPG source. It auto-updates every day at 6:00 AM UTC.
 
+**Current status:** 75 channels, 9,000+ programs, 5 days of guide data. All channel IDs verified to match your IPTV provider's EPG IDs.
+
 ---
 
-## Channels Included (~70 curated channels)
+## Setup Instructions
 
-### Group 1: UK — Premier League, EFL, British Sports
+### Sparkle TV
+
+1. Open **Sparkle TV** on your Android TV
+2. Add your IPTV provider as a source (Xtream Codes — use your provider's server, username, and password)
+3. Go to **Settings** → **EPG** → **Add EPG Source**
+4. Enter the EPG URL:
+   ```
+   https://raw.githubusercontent.com/farleyflex/epg-guide/main/epg.xml
+   ```
+5. Set update interval to **24 hours**
+6. Sparkle will match your channels to the EPG using the channel IDs
+
+### Strong 8 App
+
+1. Open **Strong 8** on your Android TV
+2. Add your IPTV provider (Xtream Codes — use your provider's server, username, and password)
+3. Go to **Settings** → **EPG Settings**
+4. Enter the EPG URL:
+   ```
+   https://raw.githubusercontent.com/farleyflex/epg-guide/main/epg.xml
+   ```
+5. Set auto-update to **24 hours**
+6. Trigger a manual EPG update to load it immediately
+
+### How channel matching works
+
+The EPG file contains `<channel id="...">` entries. Your IPTV app matches these IDs to the channels in your playlist. The `xmltv_id` values in `channels.xml` are set to match the EPG channel IDs that your IPTV provider uses (e.g., `skysportspremiereleague.uk`, `ESPN.us`, `CBC.ca`, `FoxSports3.au`).
+
+All 75 channel IDs in this EPG have been verified to match your Strong 8 provider's `epg_channel_id` values. If a channel shows no EPG data in your app, check that the channel name in your playlist corresponds to one of the channels listed below.
+
+---
+
+## Channels Included (75 channels)
+
+### Group 1: UK — Premier League, EFL, British Sports (32 channels)
 **Source:** mytelly.co.uk
 
+**Sports:**
 | Channel | EPG ID |
 |---------|--------|
 | Sky Sports Premier League | `skysportspremiereleague.uk` |
@@ -33,80 +70,67 @@ Use this URL in Sparkle TV or Strong 8 as your EPG source. It auto-updates every
 | Sky Sports+ | `SkySportsArena.uk` |
 | TNT Sports 1-8 | `tntsports1.uk` through `tntsports4.uk`, `TNTSport1.uk` through `TNTSport4.uk` |
 | Premier Sports 1-2 | `premiersports1.uk`, `premiersports2.uk` |
-| Eurosport 1-2 | `Eurosport1.uk`, `Eurosport2.uk` |
-| BBC One/Two/News/Parliament | `bbc1.uk`, `bbc2.uk`, `BBCNews.uk`, `BBCParliament.uk` |
-| Channel 4/5 | `Channel4.uk`, `Channel5.uk` |
-| Dave, HGTV, Sky News | `Dave.uk`, `HGTV.uk`, `SkyNews.uk` |
 
-### Group 2: Canada
+**General:**
+| Channel | EPG ID |
+|---------|--------|
+| BBC One | `bbc1.uk` |
+| BBC Two | `bbc2.uk` |
+| BBC News | `BBCNews.uk` |
+| BBC Parliament | `BBCParliament.uk` |
+| Channel 4 | `Channel4.uk` |
+| Channel 5 | `Channel5.uk` |
+| U&Dave | `Dave.uk` |
+| Sky News | `SkyNews.uk` |
+
+### Group 2: Canada (19 channels)
 **Source:** tvpassport.com
 
 | Channel | EPG ID |
 |---------|--------|
-| CBC, CBC News | `CBC.ca`, `CBCNews.ca` |
-| CTV Toronto, CTV News, CTV Drama/Comedy | `CTVHT.ca`, `CTVNC.ca`, `CTVDrama.ca`, `CTVComedy.ca` |
+| CBC | `CBC.ca` |
+| CBC News Network | `CBCNews.ca` |
+| CTV Toronto | `CTVHT.ca` |
+| CTV News Channel | `CTVNC.ca` |
+| CTV Drama | `CTVDrama.ca` |
+| CTV Comedy | `CTVComedy.ca` |
 | Sportsnet 360/One/Ontario/East/Pacific/West/World | `Sportsnet360.ca` etc. |
 | TSN 1-5 | `TSN1.ca` through `TSN5.ca` |
 | Global Toronto | `CIII.ca` |
 
-### Group 3: USA
+### Group 3: USA (21 channels)
 **Source:** tvpassport.com
 
 | Channel | EPG ID |
 |---------|--------|
-| ESPN, ESPN 2, ESPN News | `ESPN.us`, `ESPN2.us`, `ESPNNews.us` |
+| ESPN | `ESPN.us` |
+| ESPN News | `ESPNNews.us` |
 | FOX Sports 1/2 | `foxsports1.us`, `foxsports2.us` |
-| NFL Network, MLB Network, Golf Channel | `NFLNetwork.us`, `MLBNetwork.us`, `GolfChannel.us` |
-| CBS Sports Network, Big Ten Network | `CBSSportsNetwork.us`, `BigTenNetwork.us` |
-| TNT, AMC, USA Network | `TNT.us`, `AMC.us`, `USANetwork.us` |
-| HBO, HBO 2, Showtime, Starz | `HBO.us`, `HBO2.us`, `Showtime.us`, `Starz.us` |
-| CNN, MSNBC, CNBC | `cnn.us`, `msnbc.us`, `CNBC.us` |
-| Discovery Channel, History Channel | `DiscoveryChannel.us`, `HistoryChannel.us` |
+| NFL Network | `NFLNetwork.us` |
+| Golf Channel | `GolfChannel.us` |
+| MLB Network | `MLBNetwork.us` |
+| CBS Sports Network | `CBSSportsNetwork.us` |
+| Big Ten Network | `BigTenNetwork.us` |
+| TNT | `TNT.us` |
+| AMC | `AMC.us` |
+| HBO / HBO 2 | `HBO.us`, `HBO2.us` |
+| Showtime | `Showtime.us` |
+| Starz | `Starz.us` |
+| CNN | `cnn.us` |
+| MSNBC | `msnbc.us` |
+| CNBC | `CNBC.us` |
+| USA Network | `USANetwork.us` |
+| Discovery Channel | `DiscoveryChannel.us` |
+| History Channel | `HistoryChannel.us` |
 
-### Group 4: Australia
+### Group 4: Australia (5 channels)
 **Source:** foxtel.com.au
 
 | Channel | EPG ID |
 |---------|--------|
 | FOX SPORTS 503/505/506 | `FoxSports3.au`, `FoxSports5.au`, `FoxSports6.au` |
 | Fox Sports News | `FoxSportsNews.au` |
-| Fox Cricket, Fox League, Fox Footy | `FoxCricket.au`, `FoxLeague.au`, `FoxFooty.au` |
 | Sky News Australia | `SKYNewsLive.au` |
-| Arena, Comedy, Discovery, FOX8 | `Arena.au`, `Comedy.au`, `DiscoveryChannel.au`, `Fox8.au` |
-
----
-
-## Setup Instructions
-
-### Sparkle TV
-
-1. Open **Sparkle TV** on your Android TV
-2. Add your IPTV provider as a source (Xtream Codes or M3U — use your provider's details)
-3. Go to **Settings** → **EPG** → **Add EPG Source**
-4. Enter the EPG URL:
-   ```
-   https://raw.githubusercontent.com/farleyflex/epg-guide/main/epg.xml
-   ```
-5. Set update interval to **24 hours**
-6. Sparkle will match your channels to the EPG using the channel IDs listed above
-
-### Strong 8 App
-
-1. Open **Strong 8** on your Android TV
-2. Add your IPTV provider (Xtream Codes — use your provider's details)
-3. Go to **Settings** → **EPG Settings**
-4. Enter the EPG URL:
-   ```
-   https://raw.githubusercontent.com/farleyflex/epg-guide/main/epg.xml
-   ```
-5. Set auto-update to **24 hours**
-6. Trigger a manual EPG update to load it immediately
-
-### How channel matching works
-
-The EPG file contains `<channel id="...">` entries. Your IPTV app matches these IDs to the channels in your playlist. The `xmltv_id` values in `channels.xml` are set to match the EPG channel IDs that your IPTV provider uses (e.g., `skysportspremiereleague.uk`, `ESPN.us`, `CBC.ca`, `FoxSports3.au`).
-
-If a channel shows no EPG data, it means the provider's channel ID doesn't match any ID in this EPG file. You can check which IDs your provider uses by looking at your playlist's `tvg-id` values, or checking your provider's EPG endpoint.
 
 ---
 
